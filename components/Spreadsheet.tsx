@@ -2,7 +2,6 @@
 
 import type React from "react"
 import { useState } from "react"
-// import Image from "next/image"
 import {
   Search,
   Bell,
@@ -11,18 +10,11 @@ import {
   ArrowUpDown,
   Filter,
   Grid3X3,
-  // Upload,
-  // Download,
-  // Send,
   Plus,
-  // Star,
   ChevronRight,
-  // ArrowDownToLine,
-  // ArrowUpToLine,
 } from "lucide-react"
 import { SpreadsheetTable } from "./SpreadsheetTable"
 import { mockTasks } from "../data/mockData"
-// import type { Task } from "../types"
 
 export const Spreadsheet: React.FC = () => {
   const [activeTab, setActiveTab] = useState("All Orders")
@@ -31,21 +23,7 @@ export const Spreadsheet: React.FC = () => {
 
   const tabs = ["All Orders", "Pending", "Reviewed", "Arrived"]
 
-  // const handleAction = (action: string, data?: any) => {
-  //   console.log(`Action: ${action}`, data || "")
-  // }
-
-  // const handleCellClick = (rowIndex: number, columnKey: string, value: any) => {
-  //   console.log(`Cell interaction: Row ${rowIndex + 1}, Column ${columnKey}, Value:`, value)
-  // }
-
-  // const handleRowClick = (task: Task) => {
-  //   console.log("Row clicked:", task)
-  // }
-
-
   return (
-    // <div className="h-screen flex flex-col bg-white">
     <div className="w-full max-w-[1400px] overflow-auto bg-white mx-auto">
 
       {/* Top Navigation */}
