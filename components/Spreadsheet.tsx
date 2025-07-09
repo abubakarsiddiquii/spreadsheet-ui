@@ -15,6 +15,7 @@ import {
 } from "lucide-react"
 import { SpreadsheetTable } from "./SpreadsheetTable"
 import { mockTasks } from "../data/mockData"
+import type { Task } from "../types"
 
 export const Spreadsheet: React.FC = () => {
   const [activeTab, setActiveTab] = useState("All Orders")
@@ -29,7 +30,6 @@ export const Spreadsheet: React.FC = () => {
   console.log("Cell clicked:", { rowIndex, columnKey, value })
   }
 
-  import type { Task } from "../types"
 
   const handleRowClick = (task: Task) => {
   console.log("Row clicked:", task.id)
