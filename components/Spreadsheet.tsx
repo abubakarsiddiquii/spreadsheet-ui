@@ -11,18 +11,18 @@ import {
   ArrowUpDown,
   Filter,
   Grid3X3,
-  Upload,
-  Download,
-  Send,
+  // Upload,
+  // Download,
+  // Send,
   Plus,
-  Star,
+  // Star,
   ChevronRight,
-  ArrowDownToLine,
-  ArrowUpToLine,
+  // ArrowDownToLine,
+  // ArrowUpToLine,
 } from "lucide-react"
 import { SpreadsheetTable } from "./SpreadsheetTable"
 import { mockTasks } from "../data/mockData"
-import type { Task } from "../types"
+// import type { Task } from "../types"
 
 export const Spreadsheet: React.FC = () => {
   const [activeTab, setActiveTab] = useState("All Orders")
