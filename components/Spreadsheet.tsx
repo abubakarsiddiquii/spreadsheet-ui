@@ -242,7 +242,7 @@ export const Spreadsheet: React.FC = () => {
             onClick={() => handleAction("Q3 Financial Overview")}
           >
             <img
-              src="/financial_overview.svg"
+              src="/Financial_overview.svg"
               alt="Financial Overview"
               style={{
                 width: "180px",
