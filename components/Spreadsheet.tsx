@@ -25,7 +25,7 @@ export const Spreadsheet: React.FC = () => {
     console.log("Action Triggered:", action, value)
   }
 
-  const handleCellClick = (rowIndex: number, columnKey: string, value: any) => {
+  const handleCellClick = (rowIndex: number, columnKey: string, value: unknown) => {
   console.log("Cell clicked:", { rowIndex, columnKey, value })
   }
 
