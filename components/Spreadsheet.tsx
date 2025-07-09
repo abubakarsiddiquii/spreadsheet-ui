@@ -120,7 +120,7 @@ export const Spreadsheet: React.FC = () => {
             className="transition hover:opacity-90"
           >
             <img
-              src="/Profile_Block.svg" alt="User Profile" className="h-40px w-112px"
+              src="/Profile_block.svg" alt="User Profile" className="h-40px w-112px"
             />
           </button>
         </div>
