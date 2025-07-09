@@ -67,7 +67,7 @@ export const Spreadsheet: React.FC = () => {
               src="/Panel.svg"
               alt="Panel Icon"
               className="w-[24px] h-[24px] mr-[16px]"
-              onClick={() => handleAction("Set variable")}
+{/*               onClick={() => handleAction("Set variable")} */}
             />
             <button
               className="w-[76px] h-[20px] text-[14px] font-medium leading-[20px] tracking-normal text-[#AFAFAF] whitespace-nowrap hover:text-[#AFAFAF] transition-colors"
