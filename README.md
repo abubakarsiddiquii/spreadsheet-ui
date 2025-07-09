@@ -1,6 +1,4 @@
-# Spreadsheet UI (Inscripts Internship Assignment)
-
-This is a spreadsheet-style UI built using **Next.js**, **TypeScript**, **Tailwind CSS**, and **Lucide Icons**. The design was implemented based on a Figma mockup provided in the assignment.
+# Spreadsheet UI
 
 ## 🔗 Live URL
 https://spreadsheet-ui.vercel.app/
