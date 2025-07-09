@@ -9,6 +9,7 @@ import { PriorityBadge } from "./PriorityBadge";
 
 interface SpreadsheetTableProps {
   data: Task[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onCellClick: (rowIndex: number, columnKey: string, value: any) => void;
   onRowClick: (task: Task) => void;
 }
@@ -41,6 +42,7 @@ export const SpreadsheetTable: React.FC<SpreadsheetTableProps> = ({
     setSortConfig({ key, direction });
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleCellClick = (rowIndex: number, columnKey: string, value: any, event: React.MouseEvent) => {
     event.stopPropagation();
     setSelectedCell({ row: rowIndex, col: columnKey });
