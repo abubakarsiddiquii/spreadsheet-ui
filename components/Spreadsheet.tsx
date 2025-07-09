@@ -29,8 +29,10 @@ export const Spreadsheet: React.FC = () => {
   console.log("Cell clicked:", { rowIndex, columnKey, value })
   }
 
-  const handleRowClick = (rowId: string) => {
-  console.log("Row clicked:", rowId)
+  import type { Task } from "../types"
+
+  const handleRowClick = (task: Task) => {
+  console.log("Row clicked:", task.id)
   }
 
   const tabs = ["All Orders", "Pending", "Reviewed", "Arrived"]
