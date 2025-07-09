@@ -21,6 +21,10 @@ export const Spreadsheet: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState("")
   const [toolbarExpanded, setToolbarExpanded] = useState(true)
 
+  const handleAction = (action: string, value?: any) => {
+    console.log("Action Triggered:", action, value)
+  }
+
   const tabs = ["All Orders", "Pending", "Reviewed", "Arrived"]
 
   return (
