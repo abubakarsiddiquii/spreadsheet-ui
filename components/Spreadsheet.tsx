@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { useState } from "react"
-import Image from "next/image"
+// import Image from "next/image"
 import {
   Search,
   Bell,
@@ -31,17 +31,17 @@ export const Spreadsheet: React.FC = () => {
 
   const tabs = ["All Orders", "Pending", "Reviewed", "Arrived"]
 
-  const handleAction = (action: string, data?: any) => {
-    console.log(`Action: ${action}`, data || "")
-  }
+  // const handleAction = (action: string, data?: any) => {
+  //   console.log(`Action: ${action}`, data || "")
+  // }
 
-  const handleCellClick = (rowIndex: number, columnKey: string, value: any) => {
-    console.log(`Cell interaction: Row ${rowIndex + 1}, Column ${columnKey}, Value:`, value)
-  }
+  // const handleCellClick = (rowIndex: number, columnKey: string, value: any) => {
+  //   console.log(`Cell interaction: Row ${rowIndex + 1}, Column ${columnKey}, Value:`, value)
+  // }
 
-  const handleRowClick = (task: Task) => {
-    console.log("Row clicked:", task)
-  }
+  // const handleRowClick = (task: Task) => {
+  //   console.log("Row clicked:", task)
+  // }
 
 
   return (
