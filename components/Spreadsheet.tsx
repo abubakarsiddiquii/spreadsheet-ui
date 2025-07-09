@@ -21,7 +21,7 @@ export const Spreadsheet: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState("")
   const [toolbarExpanded, setToolbarExpanded] = useState(true)
 
-  const handleAction = (action: string, value?: any) => {
+  const handleAction = (action: string, value?: unknown) => {
     console.log("Action Triggered:", action, value)
   }
 
